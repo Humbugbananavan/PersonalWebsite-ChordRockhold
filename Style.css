@@ -1,0 +1,100 @@
+p { font-family: Arial; }
+p {text-indent: 10%;}
+p {border-style: solid;}
+p {background-color: cornflowerblue;}
+
+h1 {border-style: solid;}
+h1 {background-color: darkcyan:}
+
+h4 {border-style: solid;}
+h4 {background-color: darkcyan}
+
+form {background-color: darkcyan}
+form {border-style: solid;}
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  /* css animation */
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+   .webname {
+    width: 100%;
+    height: 5%;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+/* media queries */
+
+body {
+  background-color: white;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+  .photo 
+  {border-style: solid;}
+  {width: 50%;}
+
+  .welcome
+  {width: 100%;}
+  
+  .about
+  {width: 20%;}
+  
+  .description
+  {width: 100%;}
+  
+  .links
+  {width: 100%;}
+  
+  .intro
+  {width: 100%;}
+  
+  .sofar
+  {width: 100%;}
+  
+  .contact
+  {width: 100%;}
+
+
+/* pseudo classes links */
+a:link {color: red;}
+a:visited {color: green;}
+a:hover {color: hotpink;}
+a:active {color: blue;}
+
+/* pseudo elements first letter of paragrphs*/
+p::first-letter {color: #ff0000;font-variant: small-caps;}
+
+
+/* flex containers example */
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
